@@ -13,5 +13,4 @@ Gem::Specification.new do |s|
   s.post_install_message  = "Happy Printing!"
   s.add_development_dependency 'json', '>=0'
   s.add_development_dependency 'test-unit', '>=0'
-  s.add_development_dependency 'byebug'
 end
