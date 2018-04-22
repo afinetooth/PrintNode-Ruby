@@ -444,6 +444,9 @@ module PrintNode
           hash[k] = v
         end
       end
+
+      byebug
+
       JSON.parse('[' + post('/printjobs/', hash).body + ']')[0]
     end
 
